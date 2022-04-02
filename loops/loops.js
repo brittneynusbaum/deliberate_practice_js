@@ -1,11 +1,16 @@
 //  1. Write a while loop to print the numbers 1 through 10.
-var i = 1;
-while (i <= 10) {
-  console.log(i);
-  i++;
-}
+// var i = 1;
+// while (i <= 10) {
+//   console.log(i);
+//   i++;
+// }
 
 //  2. Write a while loop that prints the word "hello" 5 times.
+var i = 0;
+while (i < 5) {
+  console.log('hello');
+  i++;
+}
 
 //  3. Write a while loop that asks the user to enter a word and will run forever until the user enters the word "stop".
 
