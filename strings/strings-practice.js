@@ -9,13 +9,18 @@
 // var lastName = "Stephens";
 
 // # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
-var word = prompt("Enter a word: ");
+// var word = prompt("Enter a word: ");
 
-if (word === 'marco') {
-  console.log("polo");
-} 
+// if (word === 'marco') {
+//   console.log("polo");
+// } 
 
 // # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+var color1 = "blue";
+var color2 = "green";
+var color3 = "yellow";
+
+console.log("The colors are " + color1 + ", " + color2 + ", and " + color3 + "!");
 
 // # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 
