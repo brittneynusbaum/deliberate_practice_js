@@ -40,11 +40,16 @@
 // console.log("The book is " + book + " and the author is " + author + ".");
 
 // # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
-var book = "Annihilation";
-var author = "Jeff VanderMeer";
+// var book = "Annihilation";
+// var author = "Jeff VanderMeer";
 
-console.log(`The book is ${book} and the author is ${author}.`);
+// console.log(`The book is ${book} and the author is ${author}.`);
 
 // # 9. Write a program that asks the user to enter a password. If the password is "Joshua", the program responds "Shall we play a game?". For any other password, the program responds "Access denied"
 
 // # 10. Write a program that uses variables to store the names of three cities, then prints out a sentence using that information with string concatenation (the + operator).
+var city1 = "Sacramento";
+var city2 = "San Francisco";
+var city3 = "San Jose";
+
+console.log("city one is " + city1 + ", city two is " + city2 + ", and city three is " + city3 + ".");
