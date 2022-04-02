@@ -16,13 +16,18 @@
 // } 
 
 // # 4. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string concatenation (the + operator).
+// var color1 = "blue";
+// var color2 = "green";
+// var color3 = "yellow";
+
+// console.log("The colors are " + color1 + ", " + color2 + ", and " + color3 + "!");
+
+// # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
 var color1 = "blue";
 var color2 = "green";
 var color3 = "yellow";
 
-console.log("The colors are " + color1 + ", " + color2 + ", and " + color3 + "!");
-
-// # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
+console.log(`The colors are ${color1}, ${color2}, and ${color3}!`);
 
 // # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
