@@ -5,9 +5,10 @@
 // console.log(firstName + ' ' + lastName);
 
 // # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
-// var firstName = "Jessie";
-// var lastName = "Stephens";
+var firstName = "Jessie";
+var lastName = "Stephens";
 
+console.log(`${firstName} ${lastName}`);
 // # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 // var word = prompt("Enter a word: ");
 
@@ -23,11 +24,11 @@
 // console.log("The colors are " + color1 + ", " + color2 + ", and " + color3 + "!");
 
 // # 5. Write a program that uses variables to store three different colors, then prints out a sentence using the colors with string interpolation (the #{} operator).
-var color1 = "blue";
-var color2 = "green";
-var color3 = "yellow";
+// var color1 = "blue";
+// var color2 = "green";
+// var color3 = "yellow";
 
-console.log(`The colors are ${color1}, ${color2}, and ${color3}!`);
+// console.log(`The colors are ${color1}, ${color2}, and ${color3}!`);
 
 // # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
