@@ -39,15 +39,20 @@
 // }
 
 //  8. Write a while loop that prints the phrase "Around the world" 144 times.
-var i = 0;
-var count = 0
-while (i <= 144) {
-  console.log('Around the world');
-  console.log(count);
-  i++;
-  count++;
-}
+// var i = 0;
+// var count = 0;
+// while (i <= 144) {
+//   console.log('Around the world');
+//   console.log(count);
+//   i++;
+//   count++;
+// }
 
 //  9. Write a while loop that asks the user to enter a word and will run forever until the user enters a word with more than 5 letters.
 
 //  10. Write a while loop that prints the even numbers from 2 to 40.
+var i = 2;
+while (i <= 40) {
+  console.log(i);
+  i += 2;
+}
