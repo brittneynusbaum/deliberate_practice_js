@@ -5,10 +5,10 @@
 // console.log(firstName + ' ' + lastName);
 
 // # 2. Write a program that uses variables to store a first and last name, then prints the full name in one line using string interpolation (the #{} operator).
-var firstName = "Jessie";
-var lastName = "Stephens";
+// var firstName = "Jessie";
+// var lastName = "Stephens";
 
-console.log(`${firstName} ${lastName}`);
+// console.log(`${firstName} ${lastName}`);
 // # 3. Write a program that asks the user to input a word. If the word is "marco", print "polo".
 // var word = prompt("Enter a word: ");
 
@@ -33,6 +33,11 @@ console.log(`${firstName} ${lastName}`);
 // # 6. Write a program that asks the user to enter a name. If the name is not "Santa", print "You're not Santa."
 
 // # 7. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string concatenation (the + operator).
+
+var book = "Annihilation";
+var author = "Jeff VanderMeer";
+
+console.log("The book is " + book + " and the author is " + author + ".");
 
 // # 8. Write a program that uses variables to store a book's title and author, then prints out a sentence using that information with string interpolation (the #{} operator).
 
