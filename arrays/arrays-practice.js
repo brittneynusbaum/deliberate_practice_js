@@ -5,13 +5,20 @@
 // console.log(words);
 
 // 2. Create an array to store 4 letters. Then change the second letter to a number and print the array on one line.
-var letters = ['a', 'b', 'c', 'd'];
+// var letters = ['a', 'b', 'c', 'd'];
 
-letters[1] = 10;
+// letters[1] = 10;
 
-console.log(letters);
+// console.log(letters);
 
 // 3. Create an array to store 5 numbers. Then print out each number on separate lines with a while loop.
+var numbers = [1, 2, 3, 4, 5];
+var i = 0;
+while (i < numbers.length) {
+  console.log(numbers[i]);
+  i++;
+}
+
 
 // 4. Create an array to store 1 number. Then add three more numbers to the array and print the array on one line.
 
