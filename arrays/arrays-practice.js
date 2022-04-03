@@ -46,10 +46,16 @@
 // console.log(strings);
 
 // 8. Create an array to store 5 numbers. Then change the first number to 10 times its original value and print the array on one line.
-var numbers = [12, 2, 3, 4, 5];
-numbers[0] *= 10;
-console.log(numbers);
+// var numbers = [12, 2, 3, 4, 5];
+// numbers[0] *= 10;
+// console.log(numbers);
 
 // 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
+var numbers = [1, 2];
+var i = 0;
+while (i < numbers.length) {
+  console.log(numbers[i]);
+  i++;
+}
 
 // 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
