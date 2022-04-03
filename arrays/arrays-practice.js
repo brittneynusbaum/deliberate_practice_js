@@ -51,11 +51,14 @@
 // console.log(numbers);
 
 // 9. Create an array to store 2 numbers. Then print out each number on separate lines with a while loop.
-var numbers = [1, 2];
-var i = 0;
-while (i < numbers.length) {
-  console.log(numbers[i]);
-  i++;
-}
+// var numbers = [1, 2];
+// var i = 0;
+// while (i < numbers.length) {
+//   console.log(numbers[i]);
+//   i++;
+// }
 
 // 10. Create an array to store names of 3 different countries. Then add one more country and print the array one line.
+var countries = ["Finland", "Canada", "Mexico"];
+countries.push("United States");
+console.log(countries);
