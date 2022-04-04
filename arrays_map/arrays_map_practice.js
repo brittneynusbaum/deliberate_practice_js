@@ -45,15 +45,21 @@
 
 //  6. Start with an array of hashes and create a new array of number values from each hash's :age key.
 //     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes [27, 16].
-var person = [{name: "Alice", age: 27}, {name: "Blane", age: 16}];
-var personAge = [];
-person.forEach(function(people) {
-  personAge.push(people.age);
-});
-console.log(personAge);
+// var person = [{name: "Alice", age: 27}, {name: "Blane", age: 16}];
+// var personAge = [];
+// person.forEach(function(people) {
+//   personAge.push(people.age);
+// });
+// console.log(personAge);
 
 //  7. Start with an array of numbers and create a new array with each number divided by 2.
 //     For example, [1, 2, 3] becomes [0.5, 1.0, 1.5].
+var numbers = [1, 2, 3];
+var dividedByTwo = [];
+numbers.forEach(function(number) {
+  dividedByTwo.push(number / 2);
+});
+console.log(dividedByTwo);
 
 //  8. Start with an array of strings and create a new array with each string's first letter only.
 //     For example, ["hello", "goodbye"] becomes ["h", "g"].
