@@ -1,14 +1,20 @@
 //  1. Start with an array of numbers and create a new array with each number times 3.
 //     For example, [1, 2, 3] becomes [3, 6, 9].
-var numbers = [1, 2, 3];
-var timesThree = [];
-numbers.forEach(function(number) {
-  timesThree.push(number * 3);
-});
-console.log(timesThree);
+// var numbers = [1, 2, 3];
+// var timesThree = [];
+// numbers.forEach(function(number) {
+//   timesThree.push(number * 3);
+// });
+// console.log(timesThree);
 
 //  2. Start with an array of strings and create a new array with each string upcased.
 //     For example, ["hello", "goodbye"] becomes ["HELLO", "GOODBYE"].
+var strings = ["hello", "goodbye"];
+var upcased = [];
+strings.forEach(function(string) {
+  upcased.push(string.toUpperCase());
+});
+console.log(upcased);
 
 //  3. Start with an array of hashes and create a new array of string values from each hash's :name key.
 //     For example, [{name: "Alice", age: 27}, {name: "Blane", age: 16}] becomes ["Alice", "Blane"].
