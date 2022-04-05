@@ -14,13 +14,18 @@
 // console.log(capitalize("hey"));
 
 // 3. Write a function that takes in two numbers and returns the first number subtracted by the second. Then run the function and print the result.
-function subtracted(a, b) {
-  var subtract = b - a;
-  return subtract;
-}
-console.log(subtracted(1, 10));
+// function subtracted(a, b) {
+//   var subtract = b - a;
+//   return subtract;
+// }
+// console.log(subtracted(1, 10));
 
 // 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
+function timesItself(number) {
+  var answer = number *= number;
+  return answer;
+}
+console.log(timesItself(4));
 
 // 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
 
