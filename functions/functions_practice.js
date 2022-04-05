@@ -21,13 +21,18 @@
 // console.log(subtracted(1, 10));
 
 // 4. Write a function that takes in a number and returns the number times itself. Then run the function and print the result.
-function timesItself(number) {
-  var answer = number *= number;
-  return answer;
-}
-console.log(timesItself(4));
+// function timesItself(number) {
+//   var answer = number *= number;
+//   return answer;
+// }
+// console.log(timesItself(4));
 
 // 5. Write a function that takes in a string and returns the first letter of the string. Then run the function and print the result.
+function firstLetter(string) {
+  var letter = string[0];
+  return letter;
+}
+console.log(firstLetter("code"));
 
 // 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
 
