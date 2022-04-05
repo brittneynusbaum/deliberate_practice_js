@@ -53,11 +53,13 @@
 // console.log(fiveTimes("hey "));
 
 // 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
-function average(a, b, c) {
-  return (a + b + c) / 3;
-}
-console.log(average(1, 2, 3));
+// function average(a, b, c) {
+//   return (a + b + c) / 3;
+// }
+// console.log(average(1, 2, 3));
 
 // 10. Write a function that takes in a number and returns the number times 10 plus 30. Then run the function and print the result.
-
-
+function timesTenPlusThirty(number) {
+  return (number * 10) + 30;
+}
+console.log(timesTenPlusThirty(65));
