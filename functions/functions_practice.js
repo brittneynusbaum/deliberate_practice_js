@@ -1,4 +1,9 @@
 // 1. Write a function that takes in a number and returns the number times two. Then run the function and print the result.
+function timesTwo(number) {
+  var answer = number * 2;
+  return answer;
+}
+console.log(timesTwo(10));
 
 // 2. Write a function that takes in a string and returns the string with all capital letters. Then run the function and print the result.
 
