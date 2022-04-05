@@ -41,12 +41,16 @@
 // console.log(combines("hey", "hi", "hello"));
 
 // 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
-function toString(number) {
-  return number.toString();
-}
-console.log(toString(9));
+// function toString(number) {
+//   return number.toString();
+// }
+// console.log(toString(9));
 
 // 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
+function fiveTimes(string) {
+  return string.repeat(5);
+}
+console.log(fiveTimes("hey "));
 
 // 9. Write a function that takes in 3 numbers and returns the average (the sum divided by 3.0). Then run the function and print the result.
 
