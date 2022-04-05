@@ -35,12 +35,16 @@
 // console.log(firstLetter("code"));
 
 // 6. Write a function that takes in three strings and returns a string that combines all three strings with spaces in between. Then run the function and print the result.
-function combines(a, b, c) {
-  return `${a} ${b} ${c}`;
-}
-console.log(combines("hey", "hi", "hello"));
+// function combines(a, b, c) {
+//   return `${a} ${b} ${c}`;
+// }
+// console.log(combines("hey", "hi", "hello"));
 
 // 7. Write a function that takes in a number and returns the number as a string. Then run the function and print the result.
+function toString(number) {
+  return number.toString();
+}
+console.log(toString(9));
 
 // 8. Write a function that takes in a string and returns the string repeated 5 times. Then run the function and print the result.
 
