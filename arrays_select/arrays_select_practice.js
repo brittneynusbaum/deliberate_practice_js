@@ -12,17 +12,27 @@
 //  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 //     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
 
-var strings = ["winner", "winner", "chicken", "dinner"];
-var startsWithW = [];
-strings.forEach(function (string) {
-  if (string[0] === 'w') {
-    startsWithW.push(string);
-  }
-});
-console.log(startsWithW);
+// var strings = ["winner", "winner", "chicken", "dinner"];
+// var startsWithW = [];
+// strings.forEach(function (string) {
+//   if (string[0] === 'w') {
+//     startsWithW.push(string);
+//   }
+// });
+// console.log(startsWithW);
 
 //  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
+
+var items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }];
+var priceGreaterFive = [];
+
+items.forEach(function (item) {
+  if (item.price > 5) {
+    priceGreaterFive.push(item);
+  }
+});
+console.log(priceGreaterFive);
 
 //  4. Start with an array of numbers and create a new array with only the even numbers.
 //     For example, [2, 4, 5, 1, 8, 9, 7] becomes [2, 4, 8].
