@@ -62,18 +62,27 @@
 //  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
 
-var items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }];
-var nameShorterSix = [];
+// var items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }];
+// var nameShorterSix = [];
 
-items.forEach(function (item) {
-  if (item.name.length < 6) {
-    nameShorterSix.push(item);
-  }
-});
-console.log(nameShorterSix);
+// items.forEach(function (item) {
+//   if (item.name.length < 6) {
+//     nameShorterSix.push(item);
+//   }
+// });
+// console.log(nameShorterSix);
 
 //  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 //     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
+
+var numbers = [8, 23, 0, 44, 1980, 3];
+var lessThanTen = [];
+numbers.forEach(function (number) {
+  if (number < 10) {
+    lessThanTen.push(number);
+  }
+});
+console.log(lessThanTen);
 
 //  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 //     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
