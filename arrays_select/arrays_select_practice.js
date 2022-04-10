@@ -1,16 +1,25 @@
 //  1. Start with an array of numbers and create a new array with only the numbers less than 20.
 //     For example, [2, 32, 80, 18, 12, 3] becomes [2, 18, 12, 3].
-var numbers = [2, 32, 80, 18, 12, 3];
-var greaterThanTwenty = []
-numbers.forEach(function (number) {
-  if (number < 20) {
-    greaterThanTwenty.push(number);
-  }
-});
-console.log(greaterThanTwenty);
+// var numbers = [2, 32, 80, 18, 12, 3];
+// var greaterThanTwenty = []
+// numbers.forEach(function (number) {
+//   if (number < 20) {
+//     greaterThanTwenty.push(number);
+//   }
+// });
+// console.log(greaterThanTwenty);
 
 //  2. Start with an array of strings and create a new array with only the strings that start with the letter "w".
 //     For example, ["winner", "winner", "chicken", "dinner"] becomes ["winner", "winner"].
+
+var strings = ["winner", "winner", "chicken", "dinner"];
+var startsWithW = [];
+strings.forEach(function (string) {
+  if (string[0] === 'w') {
+    startsWithW.push(string);
+  }
+});
+console.log(startsWithW);
 
 //  3. Start with an array of hashes and create a new array with only the hashes with prices greater than 5 (from the :price key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}].
