@@ -50,17 +50,27 @@
 //  5. Start with an array of strings and create a new array with only the strings shorter than 4 letters.
 //     For example, ["a", "man", "a", "plan", "a", "canal", "panama"] becomes ["a", "man", "a", "a"].
 
-var strings = ["a", "man", "a", "plan", "a", "canal", "panama"];
-var shorterFour = [];
-strings.forEach(function (string) {
-  if (string.length < 4) {
-    shorterFour.push(string);
-  }
-});
-console.log(shorterFour);
+// var strings = ["a", "man", "a", "plan", "a", "canal", "panama"];
+// var shorterFour = [];
+// strings.forEach(function (string) {
+//   if (string.length < 4) {
+//     shorterFour.push(string);
+//   }
+// });
+// console.log(shorterFour);
 
 //  6. Start with an array of hashes and create a new array with only the hashes with names shorter than 6 letters (from the :name key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "chair", price: 100}, {name: "book", price: 4}].
+
+var items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }];
+var nameShorterSix = [];
+
+items.forEach(function (item) {
+  if (item.name.length < 6) {
+    nameShorterSix.push(item);
+  }
+});
+console.log(nameShorterSix);
 
 //  7. Start with an array of numbers and create a new array with only the numbers less than 10.
 //     For example, [8, 23, 0, 44, 1980, 3] becomes [8, 0, 3].
