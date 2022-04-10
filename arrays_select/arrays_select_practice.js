@@ -87,17 +87,26 @@
 //  8. Start with an array of strings and create a new array with only the strings that don't start with the letter "b".
 //     For example, ["big", "little", "good", "bad"] becomes ["little", "good"].
 
-var strings = ["big", "little", "good", "bad"];
-var notB = [];
-strings.forEach(function (string) {
-  if (string[0] !== 'b') {
-    notB.push(string);
-  }
-});
-console.log(notB);
+// var strings = ["big", "little", "good", "bad"];
+// var notB = [];
+// strings.forEach(function (string) {
+//   if (string[0] !== 'b') {
+//     notB.push(string);
+//   }
+// });
+// console.log(notB);
 
 //  9. Start with an array of hashes and create a new array with only the hashes with prices less than 10 (from the :price key).
 //     For example, [{name: "chair", price: 100}, {name: "pencil", price: 1}, {name: "book", price: 4}] becomes [{name: "pencil", price: 1}, {name: "book", price: 4}].
+
+var items = [{ name: "chair", price: 100 }, { name: "pencil", price: 1 }, { name: "book", price: 4 }];
+var priceLessThanTen = [];
+items.forEach(function (item) {
+  if (item.price < 10) {
+    priceLessThanTen.push(item);
+  }
+});
+console.log(priceLessThanTen);
 
 // 10. Start with an array of numbers and create a new array with only the odd numbers.
 //     For example, [2, 4, 5, 1, 8, 9, 7] becomes [5, 1, 9, 7].
